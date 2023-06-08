@@ -1,0 +1,42 @@
+<title>検索ツール</title>
+<link rel="icon" href="favicon.ico">
+<form>
+<input type="text" id="myInput">
+<button type="button" onclick="myFunction2()">yahoo検索</button>
+</form>
+<script>
+function myFunction2() {
+var UserInput = document.getElementById("myInput").value;
+var UserInput = ("https://search.yahoo.co.jp/search?p="+UserInput+"&fr=top_ga1_sa&ei=UTF-8&ts=694&aq=-1&oq=&at=&ai=cd590ebd-8108-43e0-9a52-3e18bb951c7a");
+window.open(UserInput, '_blank')}
+</script>
+<form>
+<input type="text" id="myInput2">
+<button type="button" onclick="myFunction3()">google検索</button>
+</form>
+<script>
+function myFunction3() {
+var UserInput2 = document.getElementById("myInput2").value;
+var UserInput2 = ("https://www.google.com/search?q="+UserInput2+"&rlz=1C1TKQJ_jaJP1040JP1040&oq=999&aqs=chrome..69i57j0i433i512l2j0i512j0i433i512j69i60l3.834j0j7&sourceid=chrome&ie=UTF-8");
+window.open(UserInput2, '_blank')}
+</script>
+<form>
+<input type="text" id="myInput3">
+<button type="button" onclick="myFunction4()">bing検索</button>
+</form>
+<script>
+function myFunction4() {
+var UserInput3 = document.getElementById("myInput3").value;
+var UserInput3 = ("https://www.bing.com/search?q="+UserInput3+"&form=QBLH&sp=-1&lq=0&pq=9&sc=10-1&qs=n&sk=&cvid=0928594AA57A47ABBFBF895129BD07BC&ghsh=0&ghacc=0&ghpl=");
+window.open(UserInput3, '_blank')}
+</script>
+<form>
+<input type="text" id="myInput4">
+<button type="button" onclick="myFunction5()">youtube検索</button>
+</form>
+<script>
+function myFunction5() {
+var UserInput4 = document.getElementById("myInput4").value;
+var UserInput4 = ("https://www.youtube.com/results?search_query="+UserInput4+" ");
+window.open(UserInput4, '_blank')}
+</script>
